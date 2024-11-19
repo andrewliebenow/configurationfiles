@@ -36,8 +36,8 @@
 . \
 	"${HOME:?}/.cargo/env"
 
-# 1) uutils' coreutils symlinks 2) Custom 3) Go 4) Python 5) Deno 6) Installed with Deno
-PATH="${HOME:?}/uutils-coreutils-symlinks:${HOME:?}/bin:${HOME:?}/go/bin:${HOME:?}/.local/bin:${PATH:?}:${HOME:?}/deno/deno-x86_64-unknown-linux-gnu:${HOME:?}/.deno/bin"
+# 1) uutils' coreutils symlinks 2) Custom 3) Go 4) Python 5) Installed with Deno
+PATH="${HOME:?}/uutils-coreutils-symlinks:${HOME:?}/bin:${HOME:?}/go/bin:${HOME:?}/.local/bin:${HOME:?}/.deno/bin:${PATH:?}"
 
 export \
 	PATH
